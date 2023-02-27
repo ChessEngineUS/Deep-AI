@@ -88,7 +88,7 @@ class PackageResolver(WithLogger):
 
 
 def load_file(file_path, filter_empty_lines=True):
-    with open(file_path, 'r', encoding='utf-8') as fh:
+
         lines = [line.strip() for line in fh.readlines()]
         if filter_empty_lines:
             lines = list(filter(None, lines))

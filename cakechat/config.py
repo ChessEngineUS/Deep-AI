@@ -15,11 +15,7 @@ S3_TOKENS_IDX_REMOTE_DIR = 'tokens_index'  # S3 remote directory with tokens ind
 S3_CONDITIONS_IDX_REMOTE_DIR = 'conditions_index'  # S3 remote directory with conditions index
 S3_W2V_REMOTE_DIR = 'w2v_models'  # S3 remote directory with pre-trained w2v models
 
-# train datasets
-DATA_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data')
-PROCESSED_CORPUS_DIR = os.path.join(DATA_PATH, 'corpora_processed')
-TOKEN_INDEX_DIR = os.path.join(DATA_PATH, 'tokens_index')  # Path to prepared tokens index directory
-CONDITION_IDS_INDEX_DIR = os.path.join(DATA_PATH, 'conditions_index')  # Path to prepared conditions index directory
+
 
 # train & val data params
 BASE_CORPUS_NAME = 'processed_dialogs'  # Basic corpus name prefix
